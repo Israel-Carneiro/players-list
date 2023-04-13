@@ -1,8 +1,11 @@
-import './card.css'
+import './Card.css'
 
 const Card = () => {
     return (
-        
+        <div>
+            <div></div>
+            <div></div>
+        </div>
     )
 }
 

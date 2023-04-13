@@ -1,4 +1,4 @@
-import './cabecalho.css'
+import './Cabecalho.css'
 
 const Cabecalho = () => {
     return (<section className="cabecalho">
