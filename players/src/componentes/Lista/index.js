@@ -25,7 +25,7 @@ const Lista = (props) => {
       },
       {
         nome: 'blok',
-        imagem: './imagens/fotos/blok.jpg',
+        imagem: './imagens/fotos/blok.jpeg',
         rank: ['#1', '#3', '#2', '#1', '#2'],
         bgCard: ['#2B2F31', '#F18537', '#008DD4', '#08A85B', '#FFF112'],
         pontos: ['243', '58', '58', '59', '68'],
