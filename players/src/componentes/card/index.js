@@ -7,31 +7,31 @@ const Card = (props) => {
     return (
         <div>
             <div>
-                <img src={props.imagem} alt={props.nome} />
+                <img src={props.jogador.imagem} alt={props.jogador.nome} />
             </div>
             <ul>
                 <li>
-                    <h2>{props.nome}</h2>
+                    <h2>{props.jogador.nome}</h2>
                 </li>
                 <div>
                     <p>Rank</p>
-                    <p>{props.rank[indice]}</p>
+                    <p>{props.jogador.rank[indice]}</p>
                 </div>
                 <div>
                     <p>Pontos</p>
-                    <p>{props.pontos[indice]}</p>
+                    <p>{props.jogador.pontos[indice]}</p>
                 </div>
                 <div>
                     <p>Gols</p>
-                    <p>{props.gols[indice]}</p>
+                    <p>{props.jogador.gols[indice]}</p>
                 </div>
                 <div>
                     <p>Jogos</p>
-                    <p>{props.jogos[indice]}</p>
+                    <p>{props.jogador.jogos[indice]}</p>
                 </div>
                 <div>
                     <p>Rodadas</p>
-                    <p>{props.rodadas[indice]}</p>
+                    <p>{props.jogador.rodadas[indice]}</p>
                 </div>
             </ul>
         </div>
