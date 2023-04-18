@@ -1,6 +1,7 @@
 .lista {
     display: flex;
     justify-content: space-evenly;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin: 1rem;
 }
