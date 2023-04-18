@@ -3,6 +3,7 @@ import './Card.css'
 const Card = (props) => {
 
     const indice = props.temporada
+    const corBg = { backgroundColor: props.jogador.bgCard[indice] }
     
     return (
         <div className="card" style={corBg}>
