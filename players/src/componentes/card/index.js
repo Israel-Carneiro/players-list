@@ -14,26 +14,26 @@ const Card = (props) => {
                 <li>
                     <h2>{props.jogador.nome}</h2>
                 </li>
-                <div>
+                <li>
                     <p>Rank</p>
                     <p>{props.jogador.rank[indice]}</p>
-                </div>
-                <div>
+                </li>
+                <li>
                     <p>Pontos</p>
                     <p>{props.jogador.pontos[indice]}</p>
-                </div>
-                <div>
+                </li>
+                <li>
                     <p>Gols</p>
                     <p>{props.jogador.gols[indice]}</p>
-                </div>
-                <div>
+                </li>
+                <li>
                     <p>Jogos</p>
                     <p>{props.jogador.jogos[indice]}</p>
-                </div>
-                <div>
+                </li>
+                <li>
                     <p>Rodadas</p>
                     <p>{props.jogador.rodadas[indice]}</p>
-                </div>
+                </li>
             </ul>
         </div>
     )
