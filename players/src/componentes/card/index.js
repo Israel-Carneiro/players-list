@@ -5,11 +5,11 @@ const Card = (props) => {
     const indice = props.temporada
     
     return (
-        <div>
-            <div>
+        <div className="card" style={corBg}>
+            <div className="card__top">
                 <img src={props.jogador.imagem} alt={props.jogador.nome} />
             </div>
-            <ul>
+            <ul className="card__botton">
                 <li>
                     <h2>{props.jogador.nome}</h2>
                 </li>
