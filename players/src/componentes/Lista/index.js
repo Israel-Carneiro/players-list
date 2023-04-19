@@ -1,3 +1,4 @@
+import './Lista.css'
 import Card from "../Card"
 
 const Lista = (props) => {
