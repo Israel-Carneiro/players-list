@@ -8,3 +8,8 @@
     border: 8px solid #fff;
     border-radius: 2rem;
 }
+
+.card__top {
+    height: 25%;
+    position: relative;
+}
