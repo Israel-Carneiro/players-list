@@ -22,3 +22,9 @@
     border: 8px solid #fff;
     border-radius: 50%;
 }
+
+.card__botton {
+    height: 75%;
+    background-color: #65656D;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
