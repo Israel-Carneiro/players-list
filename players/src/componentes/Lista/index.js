@@ -5,7 +5,7 @@ const Lista = (props) => {
 
     const jogadores = [
       {
-        nome: 'mago',
+        nome: 'Mago',
         imagem: './imagens/fotos/mago.jpg',
         rank: ['#3', '#1', '#4', '#3', '#4'],
         bgCard: ['#2B2F31', '#F18537', '#008DD4', '#08A85B', '#FFF112'],
@@ -15,7 +15,7 @@ const Lista = (props) => {
         rodadas: ['216', '54', '54', '54', '54'],
       },
       {
-        nome: 'tavares',
+        nome: 'Tavares',
         imagem: './imagens/fotos/tavares.jpg',
         rank: ['#4', '#2', '#1', '#4', '#6'],
         bgCard: ['#2B2F31', '#F18537', '#008DD4', '#08A85B', '#FFF112'],
@@ -25,7 +25,7 @@ const Lista = (props) => {
         rodadas: ['212', '53', '53', '53', '53'],
       },
       {
-        nome: 'blok',
+        nome: 'Blok',
         imagem: './imagens/fotos/blok.jpeg',
         rank: ['#1', '#3', '#2', '#1', '#2'],
         bgCard: ['#2B2F31', '#F18537', '#008DD4', '#08A85B', '#FFF112'],
@@ -35,7 +35,7 @@ const Lista = (props) => {
         rodadas: ['208', '52', '52', '52', '52'],
       },
       {
-        nome: 'gui',
+        nome: 'Gui',
         imagem: './imagens/fotos/gui.jpg',
         rank: ['#2', '#4', '#3', '#2', '#1'],
         bgCard: ['#2B2F31', '#F18537', '#008DD4', '#08A85B', '#FFF112'],
@@ -45,7 +45,7 @@ const Lista = (props) => {
         rodadas: ['204', '51', '51', '51', '51'],
       },
       {
-        nome: 'rael',
+        nome: 'Rael',
         imagem: './imagens/fotos/rael.jpg',
         rank: ['#5', '#5', '#5', '#5', '#10'],
         bgCard: ['#2B2F31', '#F18537', '#008DD4', '#08A85B', '#FFF112'],
