@@ -13,3 +13,12 @@
     height: 25%;
     position: relative;
 }
+
+.card__top img {
+    top: 50%;
+    left: 33.33%;
+    position: absolute;
+    height: 83.33%;
+    border: 8px solid #fff;
+    border-radius: 50%;
+}
