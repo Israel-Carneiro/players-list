@@ -1,3 +1,4 @@
 # Players List
 
-Lista com status de desempenho dos jogadores durante as quatro temporadas do circuito de 2022/2023
+  Registro dos resultados do Circuito Capixaba de Street Hockey 2022/2023. Duração de quatro etapas por ano, Outono, Inverno, Primavera, Verão. Cada etapa teve sua própria premiação e ao final do Circuito tem a premiação final.
+  
