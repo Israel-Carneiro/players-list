@@ -7,7 +7,7 @@
   - Cada etapa tem sua própria premiação.
   - Ao fim do Circuito ocorre a premiação final.
   
-  ### Projeto feito para o aprendizado de React
+  ### Aprendizado e pratica das Tecnologias:
   - React
   - HTML5 & CSS3
   - Designe responsivo
