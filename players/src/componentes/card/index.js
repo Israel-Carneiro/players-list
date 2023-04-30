@@ -1,9 +1,7 @@
 import './Card.css'
 
 const Card = (props) => {
-
-    const indice = props.temporada
-    const corBg = { backgroundColor: props.jogador.bgCard[indice] }
+    const corBg = { backgroundColor: props.jogador.bgCard[props.temporada] }
     
     return (
         <div className="card" style={corBg}>
@@ -16,23 +14,23 @@ const Card = (props) => {
                 </li>
                 <li>
                     <p>Rank</p>
-                    <p>{props.jogador.rank[indice]}</p>
+                    <p>{props.jogador.rank[props.temporada]}</p>
                 </li>
                 <li>
                     <p>Pontos</p>
-                    <p>{props.jogador.pontos[indice]}</p>
+                    <p>{props.jogador.pontos[props.temporada]}</p>
                 </li>
                 <li>
                     <p>Gols</p>
-                    <p>{props.jogador.gols[indice]}</p>
+                    <p>{props.jogador.gols[props.temporada]}</p>
                 </li>
                 <li>
                     <p>Jogos</p>
-                    <p>{props.jogador.jogos[indice]}</p>
+                    <p>{props.jogador.jogos[props.temporada]}</p>
                 </li>
                 <li>
                     <p>Rodadas</p>
-                    <p>{props.jogador.rodadas[indice]}</p>
+                    <p>{props.jogador.rodadas[props.temporada]}</p>
                 </li>
             </ul>
         </div>
