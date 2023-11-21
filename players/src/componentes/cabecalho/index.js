@@ -4,6 +4,13 @@ import './Cabecalho.css'
 
 const Cabecalho = () => {
 
+    const [indice, setIndice] = useState('0')
+
+    const trocaTemporada = (evento) => {
+        setIndice(evento.terget.value)
+        console.log(indice)
+    }
+
     return (<header className="cabecalho">
         <ul>
             <li>
