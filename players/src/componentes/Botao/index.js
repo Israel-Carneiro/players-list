@@ -1,8 +1,9 @@
 import './Botao.css'
 
 const Botao = (props) => {
+
     return (
-        <button className="btn">
+        <button className="btn" onClick={props.trocaTemporada}>
         {props.children}</button>
     )
 }
